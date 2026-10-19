@@ -1,0 +1,57 @@
+Class Summary – Git Setup and OOP Review
+
+The session began with the teacher instructing us to initialize an empty Git repository. Within that repository, we were asked to create two branches with no content, named TP and Course.
+
+We then reviewed the Object-Oriented Programming (OOP) lesson, covering the following concepts: variables, constants, functions, classes, methods, modules, and packages.
+
+1. Variable
+A variable is a named memory location that stores data.
+Example:
+name = "Sophea"
+score = 95
+
+2. Constant
+A constant is a value that is meant to stay the same and not be changed while the program runs.
+Example:
+PI = 3.14159
+MAX_USERS = 100
+
+3. Function
+A function is a reusable, independent block of code designed to carry out a specific task.
+Example:
+def greet(name):
+    return f"Hello, {name}!"
+
+4. Class
+A class is a template or blueprint for creating objects that share common attributes and behaviors.
+Example:
+class Student:
+    def __init__(self, name, major):
+        self.name = name
+        self.major = major
+
+5. Method
+A method is a function that is defined within a class and works directly with the data of that object.
+Example:
+class Student:
+    def __init__(self, name):
+        self.name = name
+
+    def introduce(self):
+        print(f"My name is {self.name}.")
+
+6. Module
+A module is a single code file that contains reusable code and can be imported into other files.
+Example:
+import math
+print(math.sqrt(16))  # 4.0
+
+7. Package
+A package is a folder that contains multiple related modules grouped together.
+Example structure:
+school/             # Package (folder)
+├── __init__.py
+├── teachers.py     # Module
+└── students.py     # Module
+
+Afterward, we talked about clean code. Clean code is mainly about keeping things consistent; we need to think about the people who will read our code later. We should pay attention to proper indentation and spacing, and include useful comments so that we can understand the purpose of the code when we come back to it. In Python, these best practices are outlined in a style guide called PEP 8, which we should always try to follow.
